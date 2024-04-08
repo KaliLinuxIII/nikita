@@ -4,7 +4,7 @@ let display = document.getElementById('display');
 
 function checkPassword() {
     if (submitBox.value.toLowerCase() == 'fortnite') {
-        display.innerHTML = 'Nikita is gay';
+        display.innerHTML = 'Vlad is NOT good at fortnite';
     } else {
         display.innerHTML = 'Wrong password';
     };
