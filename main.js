@@ -1,8 +1,9 @@
 let submitBox = document.getElementById('submitBox');
-let submitButton = document.getElementById('submitButton');
+let paswordForm = document.getElementById('passwordForm');
 let display = document.getElementById('display');
 
-function checkPassword() {
+function checkPassword(event) {
+    event.preventDefault();
     if (submitBox.value.toLowerCase() == 'fortnite') {
         display.innerHTML = 'Vlad is NOT good at fortnite';
     } else if (submitBox.value.toLowerCase() == 'battlepass') {
@@ -12,4 +13,4 @@ function checkPassword() {
         };
 };
 
-submitButton.addEventListener('click', checkPassword);
+passwordForm.addEventListener('click', checkPassword);
