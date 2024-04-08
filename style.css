@@ -1,0 +1,16 @@
+.display {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.submitBox {
+    color: aqua;
+}
+
+.submitButton {
+    color: red;
+    background-color: black;
+    border-radius: 3px;
+}
