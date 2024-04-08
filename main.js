@@ -9,6 +9,7 @@ function checkPassword() {
         display.innerHTML = 'You like men';
     } else {
         display.innerHTML = 'Wrong password!';
+        };
 };
 
 submitButton.addEventListener('click', checkPassword);
